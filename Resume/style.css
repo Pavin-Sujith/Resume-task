@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+#body {
+    max-width: 1100px;
+    margin: auto;
+}
+#header {
+    background-color:darkslategrey;
+    text-align: center;
+    height: 360px;
+}
+#headerdiv {
+    height: 360px;
+}
+#photo {
+    border-width: 8px;
+    border-color: orange;
+    border-style: dotted;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 40px;   
+}
+#empty1 {
+    background-color: white;
+    width:auto;
+    height: 35px;
+    position: relative;
+    bottom:75px;
+}
+#braindudey {
+    position: relative;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+#name {
+    font-size: 65px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 3px 40px ;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#nav {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px;
+}
+#table {
+    padding: 5px 20px 5px 0px;
+}
+#verticleline {
+    border-left: 1px solid grey;
+    height:1510px;
+}
+#contents {
+    display: flex;
+    padding: 40px 30px;
+}
+#left,#right {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 50%;
+    text-align:justify;
+}
+#right {
+    padding:0px 0px 0px 20px;
+}
+.logo{
+    display: flex;
+}
+.logoname {
+
+}
+.range {
+   width:210px;
+}
+.range2 {
+    width: 150px;
+    margin-left: 55px ;
+}
+.skills{
+    width:100%;
+}
+.headings {
+    font-size: 25px;
+    text-align: center;   
+}
+.list {
+    padding: 0px 20px 0px 40px;
+}
+.text {
+    padding: 0px 20px 0px 0px;
+}
+.symbol {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: darkslategrey ;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    border-style: dotted;
+    border-color: orange;
+    border-width: 4px;
+    
+}
+.symbol i {
+    line-height: 45px;
+}
+.logoname {
+    padding: 0px 0px 0px 10px;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track{
+    width: 100%;
+    background-image: linear-gradient( to right,orange, white);
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+
+
